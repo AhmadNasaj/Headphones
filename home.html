@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="https://kit.fontawesome.com/8a3f12f9a4.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href="#"><i class="far fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-home"></i></a>
+                <a href="#"><i class="fa fa-search"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <i class="fas fa-user"></i>
+                    <a href="#">login / signup</a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item " id="slide1">
+                    <img src="/images/s1.jpg" alt="">
+                    <span>Lorem ipsum dolor sit amet </span>
+                </div>
+                <div class="item " id="slide2">
+                    <img src="/images/s2.jpg" alt="">
+                    <span style="color: beige;">Lorem ipsum </span>
+                </div>
+                <div class="item active" id="slide3">
+                    <img src="/images/s3.jpg" alt="">
+                    <span>Lorem ipsum dolor sit amet </span>
+                </div>
+                
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="product-sec-new">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/images/p1.jpg" alt="" srcset="">
+                            <span class="hot-offer">Best Offer</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Product Name
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">100 $</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Favorite</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Buy</a>
+                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/images/p2.jpg" alt="" srcset="">
+                            <span class="hot-offer">Best Offer</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Product Name
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">100 $</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Favorite</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Buy</a>
+                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/images/p3.jpg" alt="" srcset="">
+                            
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Product Name
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">100 $</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Favorite</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Buy</a>
+                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/images/p4.jpg" alt="" srcset="">
+                            <span class="hot-offer">Best Offer</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            Product Name
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">80 $</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Favorite</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">Buy</a>
+                                    <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="supper-offer-section">
+            <div class="row">
+              <div class="col-lg-9">
+                <div class="supper-offer-box">
+                  <span class="supper-offer-box-title">
+                    Supper Offer           
+                  </span>
+                  <div class="body">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="image-container">
+                          <img src="./images/super-product.jpg" alt="" />
+                        </div>
+                      </div>
+                      <div class="col-lg-8">
+                        <div class="spesification">
+                          <div class="price-row">
+                            <div class="price">70 $</div>
+                            <div class="off">60 % Off</div>
+                          </div>
+                          <div class="title">Strix 6800</div>
+                          <div class="counter-down">
+                            <span id="hours">19</span> :
+                            <span id="minutes">26</span> :
+                            <span id="seconds">40</span>
+                          </div>
+                          <div class="remaining-time">
+                            Time To Offer Finish
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="banner">
+                  <img src="./images/sale.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="dragble-list">
+            <div class="title">
+              <span>headphones </span>
+            </div>
+            <div id="owl-product" class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="shoping-card">
+                  <div class="img-sec">
+                    <img src="./images/h1.jpg" alt="" />
+                    <span class="hot-offer">Best offer</span>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="title">
+                    Airpods S100
+                  </div>
+                  <div class="buttons">
+                    <div class="right">
+                      <span class="price">70$</span>
+                    </div>
+                    <div class="left">
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Favorite</a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                      </div>
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Buy</a>
+                        <a class="b-icon" href=""
+                          ><i class="fas fa-shopping-cart"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="shoping-card">
+                  <div class="img-sec">
+                    <img src="./images/h2.jpg" alt="" />
+                    <span class="hot-offer">Best Offer</span>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="title">
+                   S101
+                  </div>
+                  <div class="buttons">
+                    <div class="right">
+                      <span class="price">70 $</span>
+                    </div>
+                    <div class="left">
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Favorite</a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                      </div>
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Buy</a>
+                        <a class="b-icon" href=""
+                          ><i class="fas fa-shopping-cart"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="shoping-card">
+                  <div class="img-sec">
+                    <img src="./images/h3.jpg" alt="" />
+                    <span class="hot-offer">Best Offer</span>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="title">
+                    S100
+                  </div>
+                  <div class="buttons">
+                    <div class="right">
+                      <span class="price">80 $</span>
+                    </div>
+                    <div class="left">
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Favorite</a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                      </div>
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Buy</a>
+                        <a class="b-icon" href=""
+                          ><i class="fas fa-shopping-cart"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="shoping-card">
+                  <div class="img-sec">
+                    <img src="./images/h4.jpg" alt="" />
+                    <span class="hot-offer">Best Offer</span>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="title">
+                   HeadPhones m151
+                  </div>
+                  <div class="buttons">
+                    <div class="right">
+                      <span class="price">127$</span>
+                    </div>
+                    <div class="left">
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Favorite</a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                      </div>
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Buy</a>
+                        <a class="b-icon" href=""
+                          ><i class="fas fa-shopping-cart"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="shoping-card">
+                  <div class="img-sec">
+                    <img src="./images/h5.jpg" alt="" />
+                    <span class="hot-offer">Best Offer</span>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="title">
+                    L 22
+                  </div>
+                  <div class="buttons">
+                    <div class="right">
+                      <span class="price">69 $</span>
+                    </div>
+                    <div class="left">
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Favorite</a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                      </div>
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Buy</a>
+                        <a class="b-icon" href=""
+                          ><i class="fas fa-shopping-cart"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="shoping-card">
+                  <div class="img-sec">
+                    <img src="./images/h6.jpg" alt="" />
+                    <span class="hot-offer">Best Offer</span>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="title">
+                     KML 22
+                  </div>
+                  <div class="buttons">
+                    <div class="right">
+                      <span class="price">42 $</span>
+                    </div>
+                    <div class="left">
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Favorite</a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                      </div>
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Buy</a>
+                        <a class="b-icon" href=""
+                          ><i class="fas fa-shopping-cart"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="shoping-card">
+                  <div class="img-sec">
+                    <img src="./images/h7.jpg" alt="" />
+                    <span class="hot-offer">Best Offer</span>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="title">
+                      LKMJ 89
+                  </div>
+                  <div class="buttons">
+                    <div class="right">
+                      <span class="price">23 $</span>
+                    </div>
+                    <div class="left">
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Favorite</a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                      </div>
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Buy</a>
+                        <a class="b-icon" href=""
+                          ><i class="fas fa-shopping-cart"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="shoping-card">
+                  <div class="img-sec">
+                    <img src="./images/p1.jpg" alt="" />
+                    <span class="hot-offer">Best Offer</span>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="title">
+                    DFH 545
+                  </div>
+                  <div class="buttons">
+                    <div class="right">
+                      <span class="price">46 $</span>
+                    </div>
+                    <div class="left">
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Favorite</a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                      </div>
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Buy</a>
+                        <a class="b-icon" href=""
+                          ><i class="fas fa-shopping-cart"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="shoping-card">
+                  <div class="img-sec">
+                    <img src="./images/p1.jpg" alt="" />
+                    <span class="hot-offer">Best Offer</span>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="title">
+                    MGHN 99
+                  </div>
+                  <div class="buttons">
+                    <div class="right">
+                      <span class="price">80 $</span>
+                    </div>
+                    <div class="left">
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Favorite</a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                      </div>
+                      <div class="extend-btn">
+                        <a class="b-text" href="">Buy</a>
+                        <a class="b-icon" href=""
+                          ><i class="fas fa-shopping-cart"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
+
+    <footer>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="right">
+            <div class="title">
+              About
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsam quos enim molestiae cupiditate magnam dolores. Nostrum ab magni adipisci tempora voluptates cupiditate nulla, itaque voluptatibus? Itaque, quod ipsum? Voluptatem laborum quas illo, nisi commodi expedita sequi, optio voluptatibus rerum iure officiis aspernatur eius quidem quod aut. Voluptas, tempore quasi.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="left">
+            <div class="title">
+              Social Media
+            </div>
+            <div class="socials">
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        CopyRight 2022 
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+</body>
+</html>
